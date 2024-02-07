@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export function Tag({ title, ...rest }) {
+export function Textarea({ value, ...rest }) {
   return(
     <Container {...rest}>
-      { title }
+      {value}
     </Container>
   );
-}
+} 
